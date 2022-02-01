@@ -1,0 +1,18 @@
+---
+title: "Goose City"
+date: 2021
+unity_dir: GooseCity
+categories:
+  - Blog
+tags:
+  - Student Project
+---
+<script src="{{ site.baseurl }}/assets/unity/GooseCity/TemplateData/UnityProgress.js"></script>  
+<script src="{{ site.baseurl }}/assets/unity/GooseCity/Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}/assets/unity/GooseCity/Build/builds.json",{onProgress: UnityProgress});  
+</script>
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 960px; height: 600px"></div>
+</div>
+ by Tyler Kitts...
