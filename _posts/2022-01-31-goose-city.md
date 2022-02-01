@@ -1,6 +1,6 @@
 ---
 title: "Goose City"
-date: 2021
+date: 2019-04-18T15:34:30-04:00
 unity_dir: GooseCity
 categories:
   - Blog
