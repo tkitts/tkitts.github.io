@@ -7,7 +7,7 @@ categories:
 tags:
   - Student Project
 ---
-Made by Tyler Kitts, Dora Song, Elizabeth Childs and Alex Richman over 3 weeks
+Made by Tyler Kitts, Dora Song, Elizabeth Childs and Alex Richman over 3 weeks.
 ---
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/TemplateData/UnityProgress.js"></script>  
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/Build/UnityLoader.js"></script>
