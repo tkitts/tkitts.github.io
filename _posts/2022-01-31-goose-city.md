@@ -12,7 +12,7 @@ Made by Tyler Kitts, Dora Song, Elizabeth Childs and Alex Richman over 3 weeks.
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/TemplateData/UnityProgress.js"></script>  
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/Build/UnityLoader.js"></script>
 <script>
-  var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}/assets/unity/GooseCity/Build/builds.json",{onProgress: UnityProgress});  
+  var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/unity/GooseCity/Build/goose web build.json",{onProgress: UnityProgress});  
 </script>
 <div class="webgl-content">
   <div id="gameContainer" style="width: 960px; height: 600px"></div>
