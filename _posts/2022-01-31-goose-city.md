@@ -7,6 +7,8 @@ categories:
 tags:
   - Student Project
 ---
+by Tyler Kitts, ...
+---
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/TemplateData/UnityProgress.js"></script>  
 <script src="{{ site.baseurl }}/assets/unity/GooseCity/Build/UnityLoader.js"></script>
 <script>
@@ -15,4 +17,3 @@ tags:
 <div class="webgl-content">
   <div id="gameContainer" style="width: 960px; height: 600px"></div>
 </div>
- by Tyler Kitts, ...
