@@ -4,13 +4,15 @@ date: 2019-04-18T15:34:30-04:00
 categories:
   - Blog
 tags:
-  - link
-  - Post Formats
-link: https://github.com
+  - Student Project
 ---
-
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
-
-> And this is how a quote looks..
-
-Some [link](#) can also be shown.
+Made by Ngou Yin Yip, Adrian Ly, Tyler Kitts over 6 weeks.
+---
+<script src="{{ site.baseurl }}/assets/unity/EscapeSequence/TemplateData/UnityProgress.js"></script>  
+<script src="{{ site.baseurl }}/assets/unity/EscapeSequence/Build/UnityLoader.js"></script>
+<script>
+  var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl }}/assets/unity/EscapeSequence/Build/EscapeSequence.json",{onProgress: UnityProgress});  
+</script>
+<div class="webgl-content">
+  <div id="gameContainer" style="width: 960px; height: 600px"></div>
+</div>
